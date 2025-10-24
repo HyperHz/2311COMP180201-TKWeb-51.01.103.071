@@ -4,14 +4,14 @@ const musicicon = document.getElementById('music-icon');
 
 let Playing = true;
 
-function music(){
+function musicPlay(){
     if (Playing){
         music.pause();
         musicicon.src = "img/music-off.png";
     }
     else {
         music.Play();
-        musicicon.src = "img/music-on.png";
+        musicicon.src = "img/music-on.svg";
     }
     Playing = !Playing
-}
+};
