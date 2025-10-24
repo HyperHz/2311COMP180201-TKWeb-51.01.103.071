@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Thiệp Mời Lễ Hội Halloween</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div class="logo">
+            <div class="icon">🎃</div>
+            <div>
+            <div style="font-weight:700">Hội Ma Halloween</div>
+            <div style="font-size:12px;color:#ccc">Đêm hội rùng rợn - Vui vẻ & An toàn</div>
+            </div>
+        </div>
+        <nav id="main-nav">
+            <button class="nav-btn active" data-target="home">Trang chủ</button>
+            <button class="nav-btn" data-target="members">Thành viên</button>
+            <button class="nav-btn" data-target="history">Lịch sử</button>
+            <button class="nav-btn" data-target="products">Gian hàng</button>
+            <button class="nav-btn" data-target="gallery">Bộ sưu tập</button>
+            <button class="nav-btn" data-target="register">Đăng ký</button>
+            <button class="nav-btn" data-target="contact">Liên hệ</button>
+        </nav>
+        </header>
+        <section id="home" class="hero">
+        <div class="hero-card">
+            <h1>ĐÊM HALLOWEEN 2025</h1>
+            <p class="lead">Bạn đã sẵn sàng cho một đêm rùng rợn nhưng đầy niềm vui chưa? Hãy tham gia cùng chúng tôi trong lễ hội Halloween: cosplay, gian hàng, âm nhạc và nhiều bất ngờ.</p>
+            <div class="cta-row">
+            <button class="btn play" id="play-sound">▶ Bật âm thanh</button>
+            <button class="btn join" data-target="register">Đăng ký tham gia</button>
+            </div>
+            <div style="margin-top:12px;font-size:13px;color:#ccc">Địa điểm: B.666/Trường Đại học Sư phạm Tp.HCM • Thời gian: 31/10/2025 • Giờ: 19:00</div>
+        </div>
+        <div class="hero-card floating">
+            <video id="hero-video" width="100%" controls preload="none" poster="https://images.unsplash.com/photo-1502920917128-1aa500764b43?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+            <source src="videos/Halloween-Intro.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+            </video>
+            <div style="margin-top:10px;font-size:13px;color:#ddd">Video giới thiệu sự kiện Halloween.</div>
+        </div>
+        </section>
+
+        <main>
+        <section id="members" class="card" style="display:none">
+            <h2>Giới thiệu thành viên nhóm</h2>
+            <div class="members">
+                <div class="member">
+                    <div class="avatar">VQ</div>
+                    <div>
+                    <h4>Phan Việt Quang</h4>
+                    <p>Người thiết kế trang web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="history" class="card" style="display:none">
+            <h2>Lịch sử Halloween</h2>
+            <div class="grid-2">
+            <div>
+                <p>Halloween có nguồn gốc từ lễ hội của người Celt cổ gọi là <strong>Samhain</strong>, được tổ chức vào khoảng cuối tháng 10, đầu tháng 11 để đánh dấu kết thúc mùa gặt và bắt đầu mùa đông. Samhain cũng được xem như thời điểm ranh giới giữa hai thế giới mỏng nhất, nơi linh hồn người chết có thể quay về trần gian.</p>
+                <p>Qua nhiều thế kỷ, lễ hội hòa nhập cùng phong tục Cơ đốc hóa ở châu Âu, phát triển thành những nghi thức như mặc hóa trang, đốt lửa trại, và dần dần trở thành Halloween như ngày nay với truyền thống trick-or-treat, trang trí bí ngô và tiệc hóa trang.</p>
+                <p class="small">B.666</p>
+            </div>
+            <div>
+                <ul>
+                <li><strong>Samhain</strong> - Lễ mừng mùa kết thúc (vòng đời, linh hồn)</li>
+                <li><strong>All Saints' Day</strong> - Làm thay đổi phong tục và nghi lễ</li>
+                <li><strong>Truyền thống hiện đại</strong> - Bí ngô, hóa trang, trick-or-treat</li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        <section id="products" class="card" style="display:none">
+            <h2>Gian hàng các sản phẩm Halloween</h2>
+            <p class="small">Nhấn vào "Xem chi tiết" để mở phần mô tả chi tiết.</p>
+            <div class="products">
+            <ul>
+                <li class="product">
+                <div class="thumb">🍬</div>
+                <div class="meta">
+                    <h5>Combo Kẹo Bí Ngô <button class="toggle-detail" data-id="p1">Xem chi tiết</button></h5>
+                    <p>Hộp 200g gồm nhiều loại kẹo phù hợp cho trick-or-treat.</p>
+                    <div id="p1" class="details">
+                    <p>Giá: 120,000 VND • Thành phần: đường, siro ngô, hương liệu thực phẩm • Hạn dùng: 6 tháng.</p>
+                    <p><em>Mẹo bày bán:</em> Trộn nhiều kích thước gói để khách nhỏ tuổi thích thú.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="product">
+                <div class="thumb">🕯️</div>
+                <div class="meta">
+                    <h5>Combo Nến Ma Ám <button class="toggle-detail" data-id="p2">Xem chi tiết</button></h5>
+                    <p>Set 3 nến mùi táo quế, có hiệu ứng khói khi cháy (khuyến cáo dùng an toàn).</p>
+                    <div id="p2" class="details">
+                    <p>Giá: 180,000 VND • Chất liệu: sáp paraffin, bấc cotton • Thời gian cháy: ~5h mỗi nến.</p>
+                    <p><em>Lưu ý an toàn:</em> Đặt trên đế chịu nhiệt và không để gần vật dễ cháy.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="product">
+                <div class="thumb">🎭</div>
+                <div class="meta">
+                    <h5>Gói Hóa Trang Ma Quái <button class="toggle-detail" data-id="p3">Xem chi tiết</button></h5>
+                    <p>Trang phục, mặt nạ và phụ kiện cho cả trẻ em và người lớn.</p>
+                    <div id="p3" class="details">
+                    <p>Giá từ: 250,000 VND • Bao gồm: áo choàng, mặt nạ, vài phụ kiện nhỏ.</p>
+                    <p><em>Mẹo:</em> Cung cấp nhiều size và có góc thử đồ nhỏ tại gian hàng.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="product">
+                <div class="thumb"><img src="img/bancauco.jpg" alt="Bàn cầu cơ." width="50px"></div>
+                <div class="meta">
+                    <h5>Bàn cầu cơ :) (Đã qua sử dụng) <button class="toggle-detail" data-id="p4">Xem chi tiết</button></h5>
+                    <p>Một chiếc bàn cầu cơ đầy huyền bí.</p>
+                    <div id="p4" class="details">
+                    <p>Giá: 666,000 VND • Trình trạng: Đã qua sử dụng.</p>
+                    <p><em>Nguồn gốc:</em> Được tìm thấy ở toà nhà A.666 trong căn phòng tâm tối, ẩm mốc.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="product">
+                <div class="thumb"><img src="img/skeleton.webp" alt="Bộ xương" width="50px"></div>
+                <div class="meta">
+                    <h5>Mô hình bộ xương <button class="toggle-detail" data-id="p5">Xem chi tiết</button></h5>
+                    <p>Chỉ là mô hình bộ xương tỉ lệ 1:1 với người thật</p>
+                    <div id="p5" class="details">
+                    <p>Giá: 696,000 VND • Trình trạng: Mới.</p>
+                    <p><em>Nguồn gốc:</em> Được tìm thấy ở toà nhà A.666 trong căn phòng tâm tối, ẩm mốc.</p>
+                    </div>
+                </div>
+                </li>
+                <li class="product">
+                <div class="thumb"><img src="img/pumpkin-lamp.webp" alt="Lòng đèn bí ngô" width="50px"></div>
+                <div class="meta">
+                    <h5>Lòng đèn bí ngô <button class="toggle-detail" data-id="p6">Xem chi tiết</button></h5>
+                    <p>Một chiếc lòng đèn bí ngô phong cách Halloween độc đáo.</p>
+                    <div id="p6" class="details">
+                    <p>Giá: 242,000 VND • Trình trạng: Mới.</p>
+                    <p><em>Nguồn gốc:</em> Được tìm thấy ở toà nhà A.666 trong căn phòng tâm tối, ẩm mốc.</p>
+                    </div>
+                </div>
+                </li>
+            </ul>
+            </div>
+        </section>  
+        <section id="gallery" class="card" style="display:none">
+            <h2>Bộ sưu tập hình ảnh (kinh dị nhất)</h2>
+            <div class="gallery" id="gallery-grid">
+            <!-- sample images - replace with event images -->
+            <img src="img/halloween1.jpg" alt="ảnh 1">
+            <img src="img/halloween2.jpg" alt="ảnh 2">
+            <img src="img/halloween3.jpg" alt="ảnh 3">
+            <img src="img/halloween4.webp" alt="ảnh 4">
+            <img src="img/halloween5.jpg" alt="ảnh 5">
+            <img src="img/halloween6.jpg" alt="ảnh 6">
+            </div>
+        </section>
+
+        <!-- Register -->
+        <section id="register" class="card" style="display:none">
+            <h2>Đăng ký tham gia lễ hội</h2>
+            <form id="register-form">
+            <label>Họ và tên<input type="text" name="name" required placeholder="Nguyễn Văn A"></label>
+            <label>Số điện thoại<input type="tel" name="phone" required placeholder="+84 9xx xxx xxx"></label>
+            <label>Loại tham gia<select name="type"><option>Khách tham quan</option><option>Diễn viên hóa trang</option><option>Gian hàng</option></select></label>
+            <label>Ghi chú<textarea name="note" rows="4" placeholder="Ghi chú thêm..."></textarea></label>
+            <div style="display:flex;gap:8px">
+                <button class="btn play" type="submit">Gửi đăng ký</button>
+                <button class="btn" type="reset" style="background:transparent;border:1px solid rgba(255,255,255,0.06);">Xóa</button>
+            </div>
+            <div id="reg-msg" class="small"></div>
+            </form>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="card" style="display:none">
+            <h2>Liên hệ</h2>
+            <form id="contact-form">
+            <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
+            <label>Chủ đề<input type="text" name="subject" placeholder="Ví dụ: Hỏi về gian hàng"></label>
+            <label>Nội dung<textarea name="message" rows="5" required></textarea></label>
+            <button class="btn play" type="submit">Gửi</button>
+            <div id="contact-msg" class="small"></div>
+            </form>
+        </section>
+        </main>
+        <footer>
+        © Thiệp mời Halloween • Bài tập thiết kế Web
+        </footer>
+    </div>
+    <div id="modal" class="modal" role="dialog" aria-hidden="true">
+        <div class="modal-inner">
+        <button id="close-modal" style="float:right;background:transparent;border:none;color:#fff;font-size:18px">✕</button>
+        <div id="modal-content"></div>
+        </div>
+    </div>
+    <audio id="bg-audio" loop preload="none">
+        <source src="audio/halloween-bell.mp3" type="audio/mp3">
+    </audio>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

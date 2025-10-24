@@ -10,8 +10,11 @@ function musicPlay(){
         musicicon.src = "img/music-off.png";
     }
     else {
-        music.Play();
+        music.play();
         musicicon.src = "img/music-on.svg";
     }
     Playing = !Playing
+};
+function changebg(imgPath){
+    document.body.style.backgroundImage = "url('" + imgPath + "')";
 };
