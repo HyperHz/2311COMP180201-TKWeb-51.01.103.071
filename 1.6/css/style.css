@@ -1,0 +1,28 @@
+body{
+    background: radial-gradient(125% 125% at 50% 100%, #000000 40%, #010133 100%);
+    height: 100vh;
+}
+.index-logo img{
+    width: 30px;
+}
+.index-logo img:hover {
+    transition: all 1s;
+    width: 40px;
+}
+.container{
+    color: white;
+    height: 80vh;
+}
+.col-4 img{
+    border-radius: 20px;
+    height: 70vh;
+}
+.music a, .game a, .movie a{
+    color: white;
+}
+.music a:hover, .game a:hover, .movie a:hover{
+    color: cyan;
+}
+.music li, .game li, .movie li{
+    margin: 1%;
+}

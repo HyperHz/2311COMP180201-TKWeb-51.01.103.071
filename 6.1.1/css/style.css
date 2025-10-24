@@ -1,0 +1,161 @@
+.index-logo img{
+    width: 30px;
+}
+.index-logo img:hover {
+    transition: all 1s;
+    width: 40px;
+}
+.music-btn{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.shark{
+    left: 100px;
+    top: 400px;  
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark{
+    0% {left: -400px; top: 60%; transform: scaleX(-1);}
+    49% {left: 60vw; top: 40%; transform: scaleX(-1);}
+    50% {transform: scaleX(1);}
+    100% {left: -400px; top: 55%; transform: scaleX(1);}
+}
+.diver1{
+    position: absolute;
+    animation-name: Diver1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Diver1{
+    0% {left: -150px; top: 50%; transform: scaleX(1);}
+    49% {left: 70vw; top: 35%; transform: scaleX(1);}
+    50% {transform: scaleX(-1);}
+    100% {left: -150px; top: 40%; transform: scaleX(-1);}
+}
+.diver2{
+    position: absolute;
+    animation-name: Diver2;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Diver2{
+    0% {left: 70vw; top: 40%; transform: scaleX(-1);}
+    20% {left: 30vw; top: 35%;}
+    49% {left: -150px; top: 30%; transform: scaleX(-1);}
+    50% {transform: scaleX(1);}
+    100% {left: 70vw; top: 45%; transform: scaleX(1);}
+}
+.diver3{
+    position: absolute;
+    animation-name: Diver3;
+    animation-duration: 22s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Diver3{
+    0% {left: -200px; top: 30%; transform: scaleX(1);}
+    40% {left: 70vw; top: 25%; transform: scaleX(1);}
+    41% {transform: scaleX(-1);}
+    100% {left: -200px; top: 32%; transform: scaleX(-1);}
+}
+.faint{
+    position: absolute;
+    animation-name: Faint;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.faint img{
+    opacity: 0.8;
+}
+@keyframes Faint{
+    0% {left: -250px; top: 75%; transform: scaleX(1);}
+    50% {left: 90vw; top: 70%; transform: scaleX(1);}
+    51% {transform: scaleX(-1); }
+    100% {left: -250px; top: 80%; transform: scaleX(-1);}
+}
+.goldfish1{
+    position: absolute;
+    animation-name: Goldfish1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Goldfish1{
+    0% { left: 65vw; top: 75%; transform: scaleX(-1); }
+    50% { left: -150px; top: 70%; transform: scaleX(-1); }
+    51% { transform: scaleX(1); }
+    100% { left: 65vw; top: 77%; transform: scaleX(1); }
+}
+.goldfish2{
+    position: absolute;
+    animation-name: Goldfish2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Goldfish2{
+    0% { left: 70vw; top: 65%; transform: scaleX(-1); }
+    20% { left: 65vw; top: 65%; transform: scaleX(-1); }
+    60% { left: -150px; top: 55%; transform: scaleX(-1); }
+    61% { transform: scaleX(1); }
+    100% { left: 70vw; top: 62%; transform: scaleX(1); }
+}
+.goldfish3{
+    position: absolute;
+    animation-name: Goldfish3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Goldfish3{
+    0% { left: -150px; top: 80%; transform: scaleX(1); }
+    50% { left: 60vw; top: 75%; transform: scaleX(1); }
+    51% { transform: scaleX(-1); }
+    100% { left: -150px; top: 77%; transform: scaleX(-1); }
+}
+.turtle{
+    mix-blend-mode: multiply;
+    position: absolute;
+    animation-name: Turtle;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform: rotate(30deg);
+}
+@keyframes Turtle{
+    0% {left: -250px; top: 65%; transform: rotate(5deg) scaleX(1);}
+    50% {left: 70vw; top: 55%; transform: rotate(-5deg) scaleX(1);}
+    51% {transform: rotate(-5deg) scaleX(-1); }
+    100% {left: -250px; top: 60%; transform: rotate(5deg) scaleX(-1);}
+}
+
+
+
+
+
+
+
+
+
+
+
