@@ -1,4 +1,8 @@
-let list = ["Samsung Galaxy Note 10+","Samsung Galaxy Note 20","Samsung Galaxy Note 20 Ultra","Samsung Galaxy S25 Ultra","Vivo X200 Pro","Vivo X200 Ultra","Xiaomi 15","Xiaomi 15 Pro","Xiaomi 15 Ultra","Xiaomi 17","Xiaomi 17 Pro","iPhone 17","iPhone 17 Air","iPhone 17 Pro Max"];
+let list = ["Samsung Galaxy Note 10+","Samsung Galaxy Note 20",
+            "Samsung Galaxy Note 20 Ultra","Samsung Galaxy S25 Ultra",
+            "Vivo X200 Pro","Vivo X200 Ultra","Xiaomi 15","Xiaomi 15 Pro",
+            "Xiaomi 15 Ultra","Xiaomi 17","Xiaomi 17 Pro",
+            "iPhone 17","iPhone 17 Air","iPhone 17 Pro Max"];
 function show(){
     let s = " ";
     for(let i = 0; i < list.length;i++){
